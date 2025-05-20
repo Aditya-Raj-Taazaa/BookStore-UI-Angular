@@ -1,0 +1,38 @@
+.TopBar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #333;
+    color: #fff;
+    padding: 0 40px;
+    height: 50px;
+    width: 98%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    
+    border-radius: 5px;
+    border-color: #a879ff;
+}
+
+.Logo h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    padding: 30px;
+    border-radius: 5px;
+    border-color: #fff;
+}
+
+.Books, .Authors {
+    padding: 10px;
+    margin-left: 20px;
+    border-color: #fff;
+}
+
+.Books h2, .Authors h2 {
+
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: normal;
+}
