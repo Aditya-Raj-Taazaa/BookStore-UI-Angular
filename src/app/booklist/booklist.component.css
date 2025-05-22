@@ -1,0 +1,49 @@
+.booklist {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-around;
+    gap: 8px;
+    padding: 16px;
+    margin: 20px auto;
+    background: #f4f8ff;
+    border: 1px solid #aaccee;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.booklist > div {
+    padding: 8px 12px;
+    border-bottom: 1px solid #e0e7ef;
+    font-size: 1rem;
+}
+
+.booklist > div:last-child {
+    border-bottom: none;
+}
+
+.Id {
+    font-weight: bold;
+    color: #336699;
+}
+
+.Title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #223355;
+}
+
+.Price {
+    color: #228822;
+    font-weight: 500;
+}
+
+.Author {
+    color: #555;
+    font-style: italic;
+}
+
+.AuthorBio {
+    color: #888;
+    font-size: 0.95rem;
+}

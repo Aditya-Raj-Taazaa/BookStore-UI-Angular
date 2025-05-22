@@ -63,7 +63,8 @@
               "browserTarget": "BookStoreAPI-UI:build:production"
             },
             "development": {
-              "browserTarget": "BookStoreAPI-UI:build:development"
+              "browserTarget": "BookStoreAPI-UI:build:development",
+              "proxyConfig": "src/proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"

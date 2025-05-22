@@ -3,16 +3,20 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { TopbarComponent } from './topbar/topbar.component';
-import { BookAuthorFeedComponent } from './book-author-feed/book-author-feed.component';
+import { BooklistComponent } from './booklist/booklist.component';
+import { LibraryComponent } from './library/library.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopbarComponent,
-    BookAuthorFeedComponent
+    BooklistComponent,
+    LibraryComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

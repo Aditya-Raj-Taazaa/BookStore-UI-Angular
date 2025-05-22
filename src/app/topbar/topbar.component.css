@@ -2,8 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background-color: #333;
-    color: #fff;
+    background-color: #aaccff;
+    color: #0c0000;
     padding: 0 40px;
     height: 50px;
     width: 98%;
@@ -12,26 +12,23 @@
     left: 0;
     z-index: 1000;
     
-    border-radius: 5px;
-    border-color: #a879ff;
+    border: 1px solid #f9f9fa;
 }
 
 .Logo h1 {
     margin: 0;
     font-size: 1.5rem;
-    padding: 30px;
-    border-radius: 5px;
-    border-color: #fff;
+    padding: 10px;
+    border: 1px solid #20005c;
 }
 
 .Books, .Authors {
     padding: 10px;
     margin-left: 20px;
-    border-color: #fff;
+    border: 1px solid #f9f9fa;
 }
 
-.Books h2, .Authors h2 {
-
+.Books h2, .Authors h2 { 
     margin: 0;
     font-size: 1.1rem;
     font-weight: normal;
