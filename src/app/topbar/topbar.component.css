@@ -4,8 +4,8 @@
     justify-content: flex-start;
     background-color: #aaccff;
     color: #0c0000;
-    padding: 0 40px;
-    height: 50px;
+    padding: 0 10px;
+    height: 60px;
     width: 98%;
     position: fixed;
     top: 0;
@@ -23,11 +23,25 @@
     border: 1px solid #20005c;
 }
 
+.Logo:hover{
+    color: #004b92;
+}
+
 .Books, .Authors {
     padding: 10px;
     margin-left: 20px;
     border: 1px solid #f9f9fa;
     border-radius: 4px;
+}
+
+.Authors :hover{
+    color: #00509b;
+    transition: color 0.3s;
+}
+
+.Books :hover {
+    color: #633c3ca8;
+    transition: color 0.3s;
 }
 
 .Books h2, .Authors h2 { 

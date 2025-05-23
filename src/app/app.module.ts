@@ -10,6 +10,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { AuthorlistComponent } from './authorlist/authorlist.component';
 
 
 
@@ -19,6 +20,7 @@ import { MatInputModule } from '@angular/material/input';
     TopbarComponent,
     BooklistComponent,
     LibraryComponent,
+    AuthorlistComponent,
   ],
   imports: [
     BrowserModule,

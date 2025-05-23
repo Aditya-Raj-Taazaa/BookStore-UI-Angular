@@ -3,22 +3,29 @@
 
     <div class = "filter-forms">
 
-        <form class="title-filter-form" (ngSubmit)="onSearch()">
-            <mat-form-field class="title-filter">
-                <mat-label>Book Title Filter</mat-label>
-                <input matInput [(ngModel)]="titleFilter" name="titleFilter" (ngModelChange)="onFilterChange(titleFilter, authorFilter, priceFilter)" placeholder="Book Title">
-            </mat-form-field>
+        <!-- <form class="title-filter-form" (ngSubmit)="onSearch()"> -->
+            <div class="title-field">
+                <mat-form-field class="title-filter">
+                    <mat-label>Book Title Filter</mat-label>
+                    <input matInput [(ngModel)]="titleFilter" name="titleFilter" (ngModelChange)="onFilterChange(titleFilter, authorFilter, priceFilter)" placeholder="Book Title">
+                </mat-form-field>
+            </div>
 
-            <mat-form-field class="price-filter">
-                <mat-label>Price Filter</mat-label>
-                <input matInput [(ngModel)]="priceFilter" name="priceFilter" (ngModelChange)="onFilterChange(titleFilter, authorFilter, priceFilter)" placeholder="Price">
-            </mat-form-field>
+            
+            <div class="price-field">    
+                <mat-form-field class="price-filter">
+                    <mat-label>Price Filter</mat-label>
+                    <input matInput [(ngModel)]="priceFilter" name="priceFilter" (ngModelChange)="onFilterChange(titleFilter, authorFilter, priceFilter)" placeholder="Price">
+                </mat-form-field>
+            </div>
 
-            <mat-form-field class="author-filter">
-                <mat-label>Author Filter</mat-label>
-                <input matInput [(ngModel)]="authorFilter" name="authorFilter" (ngModelChange)="onFilterChange(titleFilter, authorFilter, priceFilter)" placeholder="Author Name">
-            </mat-form-field>
-        </form>
+            <div class="author-field">
+                <mat-form-field class="author-filter">
+                    <mat-label>Author Filter</mat-label>
+                    <input matInput [(ngModel)]="authorFilter" name="authorFilter" (ngModelChange)="onFilterChange(titleFilter, authorFilter, priceFilter)" placeholder="Author Name">
+                </mat-form-field>
+            </div>
+        <!-- </form> -->
     </div>
     
     <ul>
