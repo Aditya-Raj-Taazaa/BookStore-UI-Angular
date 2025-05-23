@@ -11,12 +11,13 @@
     top: 0;
     left: 0;
     z-index: 1000;
-    
+    border-radius: 4px;
     border: 1px solid #f9f9fa;
 }
 
 .Logo h1 {
     margin: 0;
+    border-radius: 4px;
     font-size: 1.5rem;
     padding: 10px;
     border: 1px solid #20005c;
@@ -26,6 +27,7 @@
     padding: 10px;
     margin-left: 20px;
     border: 1px solid #f9f9fa;
+    border-radius: 4px;
 }
 
 .Books h2, .Authors h2 { 
