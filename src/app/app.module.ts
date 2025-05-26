@@ -11,6 +11,8 @@ import { FormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { AuthorlistComponent } from './authorlist/authorlist.component';
+import { AppRoutingModule } from './app-routing.module';
+import { MatTableModule } from '@angular/material/table';
 
 
 
@@ -21,14 +23,19 @@ import { AuthorlistComponent } from './authorlist/authorlist.component';
     BooklistComponent,
     LibraryComponent,
     AuthorlistComponent,
+    
   ],
   imports: [
     BrowserModule,
+    MatTableModule,
+    BrowserModule,
+    AppRoutingModule,
     HttpClientModule,
     BrowserAnimationsModule,
     FormsModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

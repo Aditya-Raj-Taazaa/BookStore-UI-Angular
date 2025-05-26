@@ -1,0 +1,10 @@
+table {
+    padding: 100px;
+  width: 100%;
+  background-color:aliceblue;
+}
+
+table:hover{
+    background-color: rgb(220, 229, 245);
+    transition: box-shadow 0.8s, background 0.8s;
+}
