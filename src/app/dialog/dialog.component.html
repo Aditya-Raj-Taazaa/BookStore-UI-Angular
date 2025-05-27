@@ -1,0 +1,15 @@
+<h2 mat-dialog-title>{{data.authorName}}</h2>
+
+<mat-dialog-content>
+  <p>{{data.authorBio}}</p>
+  <h4>Books:</h4>
+  <ul>
+    <li *ngFor="let book of data.books">
+      {{book.title}} ({{book.price | currency}})
+    </li>
+  </ul>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+  <button mat-raised-button color="primary" (click)="onClose()">Close</button>
+</mat-dialog-actions>

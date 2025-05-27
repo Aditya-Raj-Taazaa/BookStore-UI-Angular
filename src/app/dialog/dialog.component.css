@@ -1,0 +1,38 @@
+mat-dialog-content {
+  padding: 16px 24px;
+  font-size: 1.05rem;
+  background-color: rgb(215, 239, 250);
+  color: #234;
+  border-radius: 22px;
+}
+
+mat-dialog-title {
+  font-size: 1.9rem;
+  font-weight: bold;
+  color: #4fa5fc;
+  padding-bottom: 8px;
+}
+
+mat-dialog-actions {
+  padding: 12px 24px 16px 24px;
+}
+
+button[mat-raised-button] {
+  min-width: 90px;
+  min-height: 40px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.08);
+  
+  transition: background 0.2s, color 0.2s;
+}
+
+button[mat-raised-button]:hover {
+  background: #1565c0;
+  color: #fff;
+}
+
+.li{
+    padding: 10px;
+}

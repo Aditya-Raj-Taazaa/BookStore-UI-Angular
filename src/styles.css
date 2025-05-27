@@ -2,3 +2,13 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* If you want to use Angular Material theming, rename this file to styles.scss and ensure your Angular build supports Sass. */
+/* Example for SCSS: */
+@use '@angular/material' as mat;
+
+:root {
+  /* Custom CSS variables as a fallback */
+  --mat-dialog-container-color: orange;
+  --mat-dialog-subhead-color: red;
+}

@@ -13,6 +13,9 @@ import { MatInputModule } from '@angular/material/input';
 import { AuthorlistComponent } from './authorlist/authorlist.component';
 import { AppRoutingModule } from './app-routing.module';
 import { MatTableModule } from '@angular/material/table';
+import { CommonModule } from '@angular/common';
+import { MatDialogModule } from '@angular/material/dialog';
+import { AuthorDetailDialogComponent } from './dialog/dialog.component';
 
 
 
@@ -23,7 +26,7 @@ import { MatTableModule } from '@angular/material/table';
     BooklistComponent,
     LibraryComponent,
     AuthorlistComponent,
-    
+    AuthorDetailDialogComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +38,9 @@ import { MatTableModule } from '@angular/material/table';
     FormsModule,
     MatFormFieldModule,
     MatInputModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CommonModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]

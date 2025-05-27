@@ -17,7 +17,6 @@ export class AuthorService {
   }
 
   getAuthorDetail(id: number): Observable<IauthorDetail> {
-    return this.http.get<any>(`/api/Authors/${id}`)
-      .pipe(map(response => response.data));
-  }
+  return this.http.get<any>(`/api/Authors/${id}`);
+}
 }
